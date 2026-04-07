@@ -4,8 +4,8 @@
 =#SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 #SBATCH --time=08:00:00
-#SBATCH --cpus-per-task=10
-#SBATCH --mem=80G
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=128G
 
 set -e
 
@@ -37,9 +37,9 @@ nvidia-smi || true
 
 echo "Checking key paths..."
 ls .
-ls ../../siamese_project/data/xview2_jpg
-ls ../../siamese_project/data/xview2_jpg/tier1
-ls ../../siamese_project/data/xview2_jpg/hold
+ls ../../siamese_project/data/xview2_jpeg
+ls ../../siamese_project/data/xview2_jpeg/tier1
+ls ../../siamese_project/data/xview2_jpeg/hold
 
 start=$(date +%s)
 
