@@ -1,0 +1,4 @@
+sbatch --export=ALL,EXPERIMENT_NAME=after_only_baseline,INPUT_MODE=after_only disaster_vision/jobs/run_change_experiment.slurm
+sbatch --export=ALL,EXPERIMENT_NAME=siamese_shared_concat_bottleneck,INPUT_MODE=siamese,ENCODER_MODE=shared,FUSION_STRATEGY=concat,FUSION_STAGE=bottleneck_only disaster_vision/jobs/run_change_experiment.slurm
+sbatch --export=ALL,EXPERIMENT_NAME=siamese_shared_concat_multiscale,INPUT_MODE=siamese,ENCODER_MODE=shared,FUSION_STRATEGY=concat,FUSION_STAGE=multiscale disaster_vision/jobs/run_change_experiment.slurm
+sbatch --export=ALL,EXPERIMENT_NAME=siamese_separate_concat_absdiff_multiscale,INPUT_MODE=siamese,ENCODER_MODE=separate,FUSION_STRATEGY=concat_absdiff,FUSION_STAGE=multiscale disaster_vision/jobs/run_change_experiment.slurm
