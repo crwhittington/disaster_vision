@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=baseline_xview2
 #SBATCH --partition=standard
-=#SBATCH --output=logs/%x_%j.out
-#SBATCH --error=logs/%x_%j.err
+#SBATCH --output=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/logs/%x_%j.out
+#SBATCH --error=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/logs/%x_%j.err
 #SBATCH --time=08:00:00
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=128G
@@ -10,14 +10,14 @@
 set -e
 
 cd /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
-mkdir -p logs
+mkdir -p /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/logs
 
 module purge
 module load gcc/11.4.0
 module load openmpi/4.1.4
 module load python/3.11.4
 
-source ~/venvs/disaster_vision/bin/activate
+source /sfs/gpfs/tardis/home/xxn2pb/venvs/disaster_vision/bin/activate
 
 echo "=============================="
 echo "Job started at: $(date)"
@@ -36,21 +36,21 @@ echo "GPU check:"
 nvidia-smi || true
 
 echo "Checking key paths..."
-ls .
-ls ../../siamese_project/data/xview2_jpeg
-ls ../../siamese_project/data/xview2_jpeg/tier1
-ls ../../siamese_project/data/xview2_jpeg/hold
+ls /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+ls /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg
+ls /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1
+ls /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold
 
 start=$(date +%s)
 
-python siamese_baseline.py \
-  --train_root ../../siamese_project/data/xview2_jpg/tier1 \
-  --val_root ../../siamese_project/data/xview2_jpg/hold \
-  --save_dir baseline_test_output \
-  --epochs 2 \
+python /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/siamese_baseline.py \
+  --train_root /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1 \
+  --val_root /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold \
+  --save_dir /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/baseline_test_output \
+  --epochs 5 \
   --batch_size 4 \
   --image_size 256 \
-  --num_workers 4
+  --num_workers 6
 
 end=$(date +%s)
 
