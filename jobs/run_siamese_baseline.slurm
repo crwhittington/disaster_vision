@@ -6,7 +6,7 @@
 #SBATCH --error=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/logs/%x_%j.err
 #SBATCH --time=02:00:00
 #SBATCH --cpus-per-task=6
-#SBATCH --mem=48G
+#SBATCH --mem=10G
 
 set -euo pipefail
 
