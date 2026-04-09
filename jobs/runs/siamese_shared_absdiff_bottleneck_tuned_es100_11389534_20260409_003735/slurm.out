@@ -1,0 +1,66 @@
+==============================
+Job started at: Thu Apr  9 00:37:37 EDT 2026
+Running on host: udc-an34-1
+Working directory: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+SLURM job ID: 11389534
+Run directory: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_absdiff_bottleneck_tuned_es100_11389534_20260409_003735
+Experiment: siamese_shared_absdiff_bottleneck_tuned_es100
+==============================
+Python location:
+/home/xxn2pb/venvs/disaster_vision/bin/python
+Python version:
+Python 3.11.4
+GPU check:
+Thu Apr  9 00:37:37 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          Off |   00000000:0F:00.0 Off |                    0 |
+| N/A   33C    P0             66W /  400W |     116MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A           22654      G   /usr/libexec/Xorg                       106MiB |
++-----------------------------------------------------------------------------------------+
+Using device: cuda
+Experiment name: siamese_shared_absdiff_bottleneck_tuned_es100
+Train root: /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1
+Val root: /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold
+Run dir: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_absdiff_bottleneck_tuned_es100_11389534_20260409_003735
+Config | input_mode=siamese | encoder_mode=shared | fusion_strategy=absdiff | fusion_stage=bottleneck_only
+Early stopping | patience=8 | min_delta=0.0
+Train samples: 2799
+Val samples: 933
+Epoch 1/100 | train_total=3.4453 | train_seg=0.3667 | train_cls=1.5393 | val_total=3.2975 | val_seg=0.2765 | val_cls=1.5105 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3580 | val_cls_f1=0.1174 | val_joint=0.3494
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_absdiff_bottleneck_tuned_es100_11389534_20260409_003735/best_model.pt
+Epoch 2/100 | train_total=3.2537 | train_seg=0.2549 | train_cls=1.4994 | val_total=3.1659 | val_seg=0.2511 | val_cls=1.4574 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3773 | val_cls_f1=0.1392 | val_joint=0.3603
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_absdiff_bottleneck_tuned_es100_11389534_20260409_003735/best_model.pt
+Epoch 3/100 | train_total=3.2229 | train_seg=0.2437 | train_cls=1.4896 | val_total=3.1579 | val_seg=0.2449 | val_cls=1.4565 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.4051 | val_cls_f1=0.1956 | val_joint=0.3886
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_absdiff_bottleneck_tuned_es100_11389534_20260409_003735/best_model.pt
+Epoch 4/100 | train_total=3.2053 | train_seg=0.2405 | train_cls=1.4824 | val_total=3.1394 | val_seg=0.2408 | val_cls=1.4493 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3901 | val_cls_f1=0.1668 | val_joint=0.3741
+Epoch 5/100 | train_total=3.1842 | train_seg=0.2367 | train_cls=1.4737 | val_total=3.2254 | val_seg=0.2426 | val_cls=1.4914 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3012 | val_cls_f1=0.1268 | val_joint=0.3541
+Epoch 6/100 | train_total=3.1797 | train_seg=0.2313 | train_cls=1.4742 | val_total=3.1025 | val_seg=0.2366 | val_cls=1.4330 | val_dice=0.5621 | val_iou=0.5574 | val_cls_acc=0.4062 | val_cls_f1=0.1915 | val_joint=0.3768
+Epoch 7/100 | train_total=3.1315 | train_seg=0.2298 | train_cls=1.4509 | val_total=3.0826 | val_seg=0.2325 | val_cls=1.4250 | val_dice=0.5591 | val_iou=0.5533 | val_cls_acc=0.3966 | val_cls_f1=0.1851 | val_joint=0.3721
+Epoch 8/100 | train_total=3.1107 | train_seg=0.2288 | train_cls=1.4410 | val_total=3.1315 | val_seg=0.2335 | val_cls=1.4490 | val_dice=0.5609 | val_iou=0.5563 | val_cls_acc=0.3569 | val_cls_f1=0.1716 | val_joint=0.3662
+Epoch 9/100 | train_total=3.0933 | train_seg=0.2269 | train_cls=1.4332 | val_total=3.0059 | val_seg=0.2269 | val_cls=1.3895 | val_dice=0.5705 | val_iou=0.5653 | val_cls_acc=0.4126 | val_cls_f1=0.1797 | val_joint=0.3751
+Epoch 10/100 | train_total=3.0432 | train_seg=0.2250 | train_cls=1.4091 | val_total=2.9930 | val_seg=0.2250 | val_cls=1.3840 | val_dice=0.5713 | val_iou=0.5656 | val_cls_acc=0.4030 | val_cls_f1=0.1713 | val_joint=0.3713
+Epoch 11/100 | train_total=3.0274 | train_seg=0.2235 | train_cls=1.4020 | val_total=3.0209 | val_seg=0.2334 | val_cls=1.3937 | val_dice=0.5692 | val_iou=0.5650 | val_cls_acc=0.3944 | val_cls_f1=0.1845 | val_joint=0.3769
+Early stopping triggered at epoch 11 after 8 epochs without joint_score improvement greater than 0.0.
+Finished training.
+Best joint_score: 0.3886 at epoch 3
+Training stopped early at epoch 11.
+Metrics saved to: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_absdiff_bottleneck_tuned_es100_11389534_20260409_003735/metrics.csv
+Plots saved to: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_absdiff_bottleneck_tuned_es100_11389534_20260409_003735/plots
+==============================
+Job ended at: Thu Apr  9 00:44:30 EDT 2026
+Total runtime: 413 seconds
+==============================

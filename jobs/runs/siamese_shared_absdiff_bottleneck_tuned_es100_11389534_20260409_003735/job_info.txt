@@ -1,0 +1,11 @@
+run_id=siamese_shared_absdiff_bottleneck_tuned_es100_11389534_20260409_003735
+job_name=change_experiment
+job_id=11389534
+hostname=udc-an34-1
+started_at=2026-04-09T00:37:37-04:00
+working_dir=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+experiment_name=siamese_shared_absdiff_bottleneck_tuned_es100
+input_mode=siamese
+encoder_mode=shared
+fusion_strategy=absdiff
+fusion_stage=bottleneck_only

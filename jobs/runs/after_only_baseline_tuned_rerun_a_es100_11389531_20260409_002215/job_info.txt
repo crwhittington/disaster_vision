@@ -1,0 +1,11 @@
+run_id=after_only_baseline_tuned_rerun_a_es100_11389531_20260409_002215
+job_name=change_experiment
+job_id=11389531
+hostname=udc-an28-1
+started_at=2026-04-09T00:22:16-04:00
+working_dir=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+experiment_name=after_only_baseline_tuned_rerun_a_es100
+input_mode=after_only
+encoder_mode=shared
+fusion_strategy=concat
+fusion_stage=bottleneck_only
