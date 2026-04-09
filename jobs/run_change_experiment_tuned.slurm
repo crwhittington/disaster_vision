@@ -28,6 +28,8 @@ BASE_CHANNELS=${BASE_CHANNELS:-32}
 CLS_WEIGHT=${CLS_WEIGHT:-2.0}
 DEBUG_SAMPLES=${DEBUG_SAMPLES:-0}
 SELECTION_METRIC=${SELECTION_METRIC:-joint}
+EARLY_STOPPING_PATIENCE=${EARLY_STOPPING_PATIENCE:-8}
+EARLY_STOPPING_MIN_DELTA=${EARLY_STOPPING_MIN_DELTA:-0.0}
 
 INPUT_MODE=${INPUT_MODE:-siamese}
 ENCODER_MODE=${ENCODER_MODE:-shared}
@@ -109,6 +111,8 @@ python "$SCRIPT_PATH" \
   --cls_weight "$CLS_WEIGHT" \
   --debug_samples "$DEBUG_SAMPLES" \
   --selection_metric "$SELECTION_METRIC" \
+  --early_stopping_patience "$EARLY_STOPPING_PATIENCE" \
+  --early_stopping_min_delta "$EARLY_STOPPING_MIN_DELTA" \
   --input_mode "$INPUT_MODE" \
   --encoder_mode "$ENCODER_MODE" \
   --fusion_strategy "$FUSION_STRATEGY" \

@@ -30,7 +30,12 @@ def main():
     parser.add_argument("--cls_weight", type=float, default=1.0)
     parser.add_argument("--debug_samples", type=int, default=3)
     parser.add_argument("--selection_metric", type=str, default="joint", choices=["joint", "dice", "cls_f1", "cls_acc"])
+    parser.add_argument("--early_stopping_patience", type=int, default=8)
+    parser.add_argument("--early_stopping_min_delta", type=float, default=0.0)
     args = parser.parse_args()
+
+    if args.early_stopping_patience < 0:
+        raise ValueError("--early_stopping_patience must be >= 0")
 
     os.makedirs(args.save_dir, exist_ok=True)
 
@@ -46,6 +51,13 @@ def main():
     print(f"Val root: {args.val_root}")
     print(f"Save dir: {args.save_dir}")
     print(f"Training profile: v2 | lr={args.lr} | epochs={args.epochs} | selection_metric={args.selection_metric}")
+    if args.early_stopping_patience > 0:
+        print(
+            f"Early stopping | patience={args.early_stopping_patience} | "
+            f"min_delta={args.early_stopping_min_delta}"
+        )
+    else:
+        print("Early stopping | disabled")
 
     train_ds = XView2SiameseDataset(
         args.train_root,
@@ -117,6 +129,9 @@ def main():
         "cls_acc": "cls_acc",
     }[args.selection_metric]
     best_metric = -1.0
+    best_epoch = 0
+    epochs_without_improvement = 0
+    stopped_early = False
 
     with open(metrics_path, "w", newline="") as f:
         writer = csv.writer(f)
@@ -201,15 +216,34 @@ def main():
             history["val_joint_score"].append(val_joint_score)
 
             current_value = val_joint_score if metric_key == "joint_score" else val_metrics[metric_key]
-            if current_value > best_metric:
+            if current_value > best_metric + args.early_stopping_min_delta:
                 best_metric = current_value
+                best_epoch = epoch
+                epochs_without_improvement = 0
                 torch.save(model.state_dict(), best_model_path)
                 print(f"Saved best model to {best_model_path}")
+            else:
+                epochs_without_improvement += 1
+
+            if (
+                args.early_stopping_patience > 0
+                and epochs_without_improvement >= args.early_stopping_patience
+            ):
+                stopped_early = True
+                print(
+                    f"Early stopping triggered at epoch {epoch} after "
+                    f"{epochs_without_improvement} epochs without "
+                    f"{args.selection_metric} improvement greater than "
+                    f"{args.early_stopping_min_delta}."
+                )
+                break
 
     save_training_plots(history, plot_dir)
 
     print("Finished training.")
-    print(f"Best {args.selection_metric}: {best_metric:.4f}")
+    print(f"Best {args.selection_metric}: {best_metric:.4f} at epoch {best_epoch}")
+    if stopped_early:
+        print(f"Training stopped early at epoch {history['epoch'][-1]}.")
     print(f"Metrics saved to: {metrics_path}")
     print(f"Plots saved to: {plot_dir}")
     print(f"Config saved to: {config_path}")

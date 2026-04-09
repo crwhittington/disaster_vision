@@ -521,7 +521,7 @@ def main():
     parser.add_argument("--cls_weight", type=float, default=1.0)
     parser.add_argument("--debug_samples", type=int, default=0)
     parser.add_argument("--selection_metric", type=str, default="joint", choices=["joint", "dice", "cls_f1", "cls_acc"])
-    parser.add_argument("--early_stopping_patience", type=int, default=12)
+    parser.add_argument("--early_stopping_patience", type=int, default=8)
     parser.add_argument("--early_stopping_min_delta", type=float, default=0.0)
 
     parser.add_argument("--input_mode", type=str, default="siamese", choices=["after_only", "siamese"])

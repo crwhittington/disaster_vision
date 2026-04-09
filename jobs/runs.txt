@@ -1,13 +1,24 @@
-Pending April 8 
-- After-only baseline tuned change experiment with longer training (50 epochs) and joint-score model selection
-- Shared-encoder Siamese concat bottleneck change experiment with longer training (50 epochs) and joint-score model selection
-- Separate-encoder Siamese concat+absdiff multiscale change experiment with longer training (50 epochs) and joint-score model selection
+Pending April 9
+- Shared-encoder Siamese concat+absdiff bottleneck rerun with 100 max epochs, joint-score model selection, and patience-8 early stopping
+- After-only tuned rerun with 100 max epochs, joint-score model selection, and patience-8 early stopping
+- Shared-encoder Siamese concat+absdiff multiscale tuned run with 100 max epochs, joint-score model selection, and patience-8 early stopping
+- Separate-encoder Siamese concat+absdiff bottleneck tuned run with 100 max epochs, joint-score model selection, and patience-8 early stopping
+- Shared-encoder Siamese absdiff bottleneck tuned run with 100 max epochs, joint-score model selection, and patience-8 early stopping
 
 
 Finished
 1. Baseline test output (wrong)
-2. Baseline_xview2_11319760_20260407_180713
-3. Baseline_xview2_11320199_20260407_192602
+2. baseline_xview2_11319760_20260407_180713
+3. baseline_xview2_11320199_20260407_192602
 4. siamese_shared_concat_bottleneck_only_11321642_20260407_210751
-5. siamese_shared_concat_multiscale_tuned_11324148_20260408_022353
-6. baseline_xview2_v2_11321747_20260408_023414
+5. baseline_xview2_v2_11321747_20260408_023414
+6. siamese_shared_concat_multiscale_tuned_11324148_20260408_022353
+7. after_only_baseline_tuned_11381201_20260408_210113
+8. siamese_shared_concat_bottleneck_tuned_11381202_20260408_210113
+9. siamese_separate_concat_absdiff_multiscale_tuned_11381203_20260408_210114
+10. baseline_xview2_v2_11386952_20260408_225121
+11. after_only_baseline_tuned_cw15_es100_11388210_20260408_232206
+12. after_only_baseline_tuned_cw25_es100_11388222_20260408_232248
+13. siamese_shared_concat_bottleneck_tuned_cw25_es100_11388223_20260408_232249
+14. siamese_shared_concat_multiscale_tuned_es100_11388226_20260408_232444
+15. siamese_shared_concat_absdiff_bottleneck_tuned_es100_11388227_20260408_233106
