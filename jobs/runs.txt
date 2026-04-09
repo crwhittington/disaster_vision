@@ -1,6 +1,7 @@
 Pending April 8 
-
-
+- After-only baseline tuned change experiment with longer training (50 epochs) and joint-score model selection
+- Shared-encoder Siamese concat bottleneck change experiment with longer training (50 epochs) and joint-score model selection
+- Separate-encoder Siamese concat+absdiff multiscale change experiment with longer training (50 epochs) and joint-score model selection
 
 
 Finished
