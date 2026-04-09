@@ -4,7 +4,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --output=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/logs/%x_%j.out
 #SBATCH --error=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/logs/%x_%j.err
-#SBATCH --time=06:00:00
+#SBATCH --time=00:50:00
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=24G
 
@@ -78,7 +78,7 @@ python "$JOBS_ROOT/siamese_baseline_v2.py" \
   --train_root /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1 \
   --val_root /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold \
   --save_dir "$RUN_DIR" \
-  --epochs 20 \
+  --epochs 50 \
   --batch_size 4 \
   --image_size 256 \
   --lr 3e-4 \

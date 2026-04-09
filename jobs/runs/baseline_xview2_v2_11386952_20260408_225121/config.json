@@ -1,0 +1,13 @@
+{
+  "train_root": "/sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1",
+  "val_root": "/sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold",
+  "save_dir": "/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/baseline_xview2_v2_11386952_20260408_225121",
+  "epochs": 50,
+  "batch_size": 4,
+  "image_size": 256,
+  "lr": 0.0003,
+  "num_workers": 4,
+  "cls_weight": 1.0,
+  "debug_samples": 3,
+  "selection_metric": "joint"
+}
