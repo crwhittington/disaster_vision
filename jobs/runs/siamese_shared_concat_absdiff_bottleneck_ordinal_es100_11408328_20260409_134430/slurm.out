@@ -1,0 +1,92 @@
+==============================
+Job started at: Thu Apr  9 13:44:32 EDT 2026
+Running on host: udc-an40-29
+Working directory: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+SLURM job ID: 11408328
+Run directory: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430
+Experiment: siamese_shared_concat_absdiff_bottleneck_ordinal_es100
+==============================
+Python location:
+/home/xxn2pb/venvs/disaster_vision/bin/python
+Python version:
+Python 3.11.4
+GPU check:
+Thu Apr  9 13:44:32 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX A6000               Off |   00000000:A1:00.0 Off |                  Off |
+| 30%   26C    P8             32W /  300W |      20MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A          804282      G   /usr/libexec/Xorg                         8MiB |
++-----------------------------------------------------------------------------------------+
+Using device: cuda
+Experiment name: siamese_shared_concat_absdiff_bottleneck_ordinal_es100
+Train root: /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1
+Val root: /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold
+Run dir: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430
+Config | input_mode=siamese | encoder_mode=shared | fusion_strategy=concat_absdiff | fusion_stage=bottleneck_only | damage_loss_mode=ordinal | damage_loss_alpha=0.5
+Early stopping | patience=8 | min_delta=0.0
+Train samples: 2799
+Val samples: 933
+Epoch 1/100 | train_total=3.9925 | train_seg=0.3544 | train_cls=1.8190 | val_total=3.7902 | val_seg=0.2541 | val_cls=1.7681 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3558 | val_cls_f1=0.1146 | val_joint=0.3480
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 2/100 | train_total=3.8375 | train_seg=0.2451 | train_cls=1.7962 | val_total=3.7799 | val_seg=0.2434 | val_cls=1.7683 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3558 | val_cls_f1=0.1158 | val_joint=0.3486
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 3/100 | train_total=3.7931 | train_seg=0.2380 | train_cls=1.7776 | val_total=3.7322 | val_seg=0.2384 | val_cls=1.7469 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.4062 | val_cls_f1=0.2047 | val_joint=0.3931
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 4/100 | train_total=3.7179 | train_seg=0.2348 | train_cls=1.7416 | val_total=3.7129 | val_seg=0.2375 | val_cls=1.7377 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3934 | val_cls_f1=0.1927 | val_joint=0.3871
+Epoch 5/100 | train_total=3.6195 | train_seg=0.2361 | train_cls=1.6917 | val_total=3.6655 | val_seg=0.2625 | val_cls=1.7015 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3816 | val_cls_f1=0.1632 | val_joint=0.3723
+Epoch 6/100 | train_total=3.4267 | train_seg=0.2336 | train_cls=1.5965 | val_total=3.6410 | val_seg=0.2352 | val_cls=1.7029 | val_dice=0.5807 | val_iou=0.5807 | val_cls_acc=0.4362 | val_cls_f1=0.1338 | val_joint=0.3573
+Epoch 7/100 | train_total=3.0895 | train_seg=0.2232 | train_cls=1.4331 | val_total=3.6966 | val_seg=0.2457 | val_cls=1.7254 | val_dice=0.5438 | val_iou=0.5347 | val_cls_acc=0.4695 | val_cls_f1=0.2002 | val_joint=0.3720
+Epoch 8/100 | train_total=3.0248 | train_seg=0.2206 | train_cls=1.4021 | val_total=2.9233 | val_seg=0.2170 | val_cls=1.3532 | val_dice=0.5723 | val_iou=0.5697 | val_cls_acc=0.5681 | val_cls_f1=0.2134 | val_joint=0.3928
+Epoch 9/100 | train_total=2.8967 | train_seg=0.2096 | train_cls=1.3435 | val_total=3.0035 | val_seg=0.2122 | val_cls=1.3957 | val_dice=0.5743 | val_iou=0.5692 | val_cls_acc=0.5584 | val_cls_f1=0.2067 | val_joint=0.3905
+Epoch 10/100 | train_total=2.8266 | train_seg=0.2037 | train_cls=1.3114 | val_total=2.8972 | val_seg=0.2022 | val_cls=1.3475 | val_dice=0.5756 | val_iou=0.5662 | val_cls_acc=0.5766 | val_cls_f1=0.2123 | val_joint=0.3939
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 11/100 | train_total=2.7815 | train_seg=0.2020 | train_cls=1.2897 | val_total=2.9245 | val_seg=0.2020 | val_cls=1.3613 | val_dice=0.5782 | val_iou=0.5699 | val_cls_acc=0.5874 | val_cls_f1=0.2210 | val_joint=0.3996
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 12/100 | train_total=2.7579 | train_seg=0.1969 | train_cls=1.2805 | val_total=2.7772 | val_seg=0.1998 | val_cls=1.2887 | val_dice=0.5731 | val_iou=0.5680 | val_cls_acc=0.6066 | val_cls_f1=0.2393 | val_joint=0.4062
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 13/100 | train_total=2.7216 | train_seg=0.1960 | train_cls=1.2628 | val_total=2.8196 | val_seg=0.1935 | val_cls=1.3130 | val_dice=0.5738 | val_iou=0.5667 | val_cls_acc=0.5916 | val_cls_f1=0.2421 | val_joint=0.4079
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 14/100 | train_total=2.6618 | train_seg=0.1902 | train_cls=1.2358 | val_total=2.7211 | val_seg=0.1894 | val_cls=1.2659 | val_dice=0.5796 | val_iou=0.5687 | val_cls_acc=0.6195 | val_cls_f1=0.2570 | val_joint=0.4183
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 15/100 | train_total=2.6429 | train_seg=0.1915 | train_cls=1.2257 | val_total=2.7582 | val_seg=0.1968 | val_cls=1.2807 | val_dice=0.5821 | val_iou=0.5751 | val_cls_acc=0.6045 | val_cls_f1=0.2382 | val_joint=0.4101
+Epoch 16/100 | train_total=2.6313 | train_seg=0.1881 | train_cls=1.2216 | val_total=2.8260 | val_seg=0.1865 | val_cls=1.3198 | val_dice=0.5805 | val_iou=0.5691 | val_cls_acc=0.6045 | val_cls_f1=0.2598 | val_joint=0.4202
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 17/100 | train_total=2.5674 | train_seg=0.1874 | train_cls=1.1900 | val_total=2.6924 | val_seg=0.1868 | val_cls=1.2528 | val_dice=0.5855 | val_iou=0.5737 | val_cls_acc=0.6099 | val_cls_f1=0.2452 | val_joint=0.4153
+Epoch 18/100 | train_total=2.5272 | train_seg=0.1849 | train_cls=1.1711 | val_total=2.6420 | val_seg=0.1839 | val_cls=1.2290 | val_dice=0.5865 | val_iou=0.5744 | val_cls_acc=0.6249 | val_cls_f1=0.2530 | val_joint=0.4198
+Epoch 19/100 | train_total=2.4959 | train_seg=0.1806 | train_cls=1.1577 | val_total=2.6535 | val_seg=0.1859 | val_cls=1.2338 | val_dice=0.5857 | val_iou=0.5708 | val_cls_acc=0.6377 | val_cls_f1=0.2551 | val_joint=0.4204
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 20/100 | train_total=2.4704 | train_seg=0.1811 | train_cls=1.1447 | val_total=2.5877 | val_seg=0.1875 | val_cls=1.2001 | val_dice=0.5796 | val_iou=0.5720 | val_cls_acc=0.6345 | val_cls_f1=0.2581 | val_joint=0.4189
+Epoch 21/100 | train_total=2.4220 | train_seg=0.1775 | train_cls=1.1223 | val_total=2.6006 | val_seg=0.1787 | val_cls=1.2110 | val_dice=0.5879 | val_iou=0.5756 | val_cls_acc=0.6324 | val_cls_f1=0.2681 | val_joint=0.4280
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/best_model.pt
+Epoch 22/100 | train_total=2.4119 | train_seg=0.1772 | train_cls=1.1173 | val_total=2.6716 | val_seg=0.1779 | val_cls=1.2468 | val_dice=0.5859 | val_iou=0.5726 | val_cls_acc=0.6292 | val_cls_f1=0.2515 | val_joint=0.4187
+Epoch 23/100 | train_total=2.3723 | train_seg=0.1742 | train_cls=1.0990 | val_total=2.6351 | val_seg=0.1845 | val_cls=1.2253 | val_dice=0.5728 | val_iou=0.5587 | val_cls_acc=0.6313 | val_cls_f1=0.2597 | val_joint=0.4162
+Epoch 24/100 | train_total=2.3281 | train_seg=0.1720 | train_cls=1.0781 | val_total=2.5742 | val_seg=0.1766 | val_cls=1.1988 | val_dice=0.5526 | val_iou=0.5389 | val_cls_acc=0.6377 | val_cls_f1=0.2574 | val_joint=0.4050
+Epoch 25/100 | train_total=2.3122 | train_seg=0.1713 | train_cls=1.0704 | val_total=2.6186 | val_seg=0.1755 | val_cls=1.2215 | val_dice=0.5644 | val_iou=0.5493 | val_cls_acc=0.6184 | val_cls_f1=0.2494 | val_joint=0.4069
+Epoch 26/100 | train_total=2.2855 | train_seg=0.1706 | train_cls=1.0574 | val_total=2.5869 | val_seg=0.1784 | val_cls=1.2042 | val_dice=0.5967 | val_iou=0.5825 | val_cls_acc=0.6270 | val_cls_f1=0.2574 | val_joint=0.4270
+Epoch 27/100 | train_total=2.2829 | train_seg=0.1686 | train_cls=1.0572 | val_total=2.5455 | val_seg=0.1732 | val_cls=1.1861 | val_dice=0.5775 | val_iou=0.5633 | val_cls_acc=0.6388 | val_cls_f1=0.2635 | val_joint=0.4205
+Epoch 28/100 | train_total=2.2190 | train_seg=0.1657 | train_cls=1.0267 | val_total=2.5953 | val_seg=0.1775 | val_cls=1.2089 | val_dice=0.5788 | val_iou=0.5649 | val_cls_acc=0.6356 | val_cls_f1=0.2597 | val_joint=0.4193
+Epoch 29/100 | train_total=2.1759 | train_seg=0.1641 | train_cls=1.0059 | val_total=2.5024 | val_seg=0.1673 | val_cls=1.1675 | val_dice=0.5485 | val_iou=0.5330 | val_cls_acc=0.6377 | val_cls_f1=0.2636 | val_joint=0.4061
+Early stopping triggered at epoch 29 after 8 epochs without joint_score improvement greater than 0.0.
+Finished training.
+Best joint_score: 0.4280 at epoch 21
+Training stopped early at epoch 29.
+Metrics saved to: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/metrics.csv
+Plots saved to: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/siamese_shared_concat_absdiff_bottleneck_ordinal_es100_11408328_20260409_134430/plots
+==============================
+Job ended at: Thu Apr  9 14:02:01 EDT 2026
+Total runtime: 1048 seconds
+==============================

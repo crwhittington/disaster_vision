@@ -1,0 +1,13 @@
+run_id=siamese_shared_concat_absdiff_bottleneck_ce_control_es100_11408327_20260409_134431
+job_name=change_experiment
+job_id=11408327
+hostname=udc-an40-29
+started_at=2026-04-09T13:44:32-04:00
+working_dir=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+experiment_name=siamese_shared_concat_absdiff_bottleneck_ce_control_es100
+input_mode=siamese
+encoder_mode=shared
+fusion_strategy=concat_absdiff
+fusion_stage=bottleneck_only
+damage_loss_mode=ce
+damage_loss_alpha=0.5

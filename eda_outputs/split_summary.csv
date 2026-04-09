@@ -1,0 +1,4 @@
+split,pre_images,post_images,post_label_files,building_annotations
+hold,933,933,933,54392
+tier1,2799,2799,2799,162787
+test,933,933,933,54862

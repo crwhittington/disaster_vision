@@ -1,0 +1,13 @@
+run_id=siamese_shared_concat_absdiff_bottleneck_hierarchical_es100_11408331_20260409_134429
+job_name=change_experiment
+job_id=11408331
+hostname=udc-ba05-38
+started_at=2026-04-09T13:44:30-04:00
+working_dir=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+experiment_name=siamese_shared_concat_absdiff_bottleneck_hierarchical_es100
+input_mode=siamese
+encoder_mode=shared
+fusion_strategy=concat_absdiff
+fusion_stage=bottleneck_only
+damage_loss_mode=hierarchical
+damage_loss_alpha=0.5
