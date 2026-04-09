@@ -1,9 +1,7 @@
 Pending April 9
-- Shared-encoder Siamese concat+absdiff bottleneck rerun with 100 max epochs, joint-score model selection, and patience-8 early stopping
-- After-only tuned rerun with 100 max epochs, joint-score model selection, and patience-8 early stopping
-- Shared-encoder Siamese concat+absdiff multiscale tuned run with 100 max epochs, joint-score model selection, and patience-8 early stopping
-- Separate-encoder Siamese concat+absdiff bottleneck tuned run with 100 max epochs, joint-score model selection, and patience-8 early stopping
-- Shared-encoder Siamese absdiff bottleneck tuned run with 100 max epochs, joint-score model selection, and patience-8 early stopping
+- Shared-encoder Siamese concat+absdiff bottleneck rerun B with 100 max epochs, joint-score model selection, and patience-8 early stopping
+- After-only tuned rerun B with 100 max epochs, joint-score model selection, and patience-8 early stopping
+- Separate-encoder Siamese concat+absdiff multiscale tuned run with 100 max epochs, joint-score model selection, and patience-8 early stopping
 
 
 Finished
@@ -22,3 +20,8 @@ Finished
 13. siamese_shared_concat_bottleneck_tuned_cw25_es100_11388223_20260408_232249
 14. siamese_shared_concat_multiscale_tuned_es100_11388226_20260408_232444
 15. siamese_shared_concat_absdiff_bottleneck_tuned_es100_11388227_20260408_233106
+16. siamese_shared_concat_absdiff_bottleneck_tuned_rerun_a_es100_11389530_20260409_002214
+17. after_only_baseline_tuned_rerun_a_es100_11389531_20260409_002215
+18. siamese_shared_concat_absdiff_multiscale_tuned_es100_11389532_20260409_002919
+19. siamese_separate_concat_absdiff_bottleneck_tuned_es100_11389533_20260409_003210
+20. siamese_shared_absdiff_bottleneck_tuned_es100_11389534_20260409_003735
