@@ -1,0 +1,592 @@
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/change_family_experiments.py:158: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(

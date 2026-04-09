@@ -1,0 +1,11 @@
+run_id=siamese_shared_concat_bottleneck_tuned_cw25_es100_11388223_20260408_232249
+job_name=change_experiment
+job_id=11388223
+hostname=udc-an36-1
+started_at=2026-04-08T23:22:50-04:00
+working_dir=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+experiment_name=siamese_shared_concat_bottleneck_tuned_cw25_es100
+input_mode=siamese
+encoder_mode=shared
+fusion_strategy=concat
+fusion_stage=bottleneck_only
