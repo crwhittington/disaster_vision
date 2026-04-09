@@ -1,7 +1,7 @@
 Pending April 9
-- Shared-encoder Siamese concat+absdiff bottleneck rerun B with 100 max epochs, joint-score model selection, and patience-8 early stopping
-- After-only tuned rerun B with 100 max epochs, joint-score model selection, and patience-8 early stopping
-- Separate-encoder Siamese concat+absdiff multiscale tuned run with 100 max epochs, joint-score model selection, and patience-8 early stopping
+- Shared-encoder Siamese concat+absdiff bottleneck control run with standard cross-entropy damage loss
+- Shared-encoder Siamese concat+absdiff bottleneck run with ordinal cumulative damage loss
+- Shared-encoder Siamese concat+absdiff bottleneck run with hierarchical coarse-to-fine damage loss
 
 
 Finished
@@ -25,3 +25,6 @@ Finished
 18. siamese_shared_concat_absdiff_multiscale_tuned_es100_11389532_20260409_002919
 19. siamese_separate_concat_absdiff_bottleneck_tuned_es100_11389533_20260409_003210
 20. siamese_shared_absdiff_bottleneck_tuned_es100_11389534_20260409_003735
+21. siamese_shared_concat_absdiff_bottleneck_tuned_rerun_b_es100_11401761_20260409_120850
+22. after_only_baseline_tuned_rerun_b_es100_11401764_20260409_120850
+23. siamese_separate_concat_absdiff_multiscale_tuned_es100_11401766_20260409_120850

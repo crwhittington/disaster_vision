@@ -26,6 +26,8 @@ NUM_WORKERS=${NUM_WORKERS:-4}
 LR=${LR:-0.001}
 BASE_CHANNELS=${BASE_CHANNELS:-32}
 CLS_WEIGHT=${CLS_WEIGHT:-1.0}
+DAMAGE_LOSS_MODE=${DAMAGE_LOSS_MODE:-ce}
+DAMAGE_LOSS_ALPHA=${DAMAGE_LOSS_ALPHA:-0.5}
 DEBUG_SAMPLES=${DEBUG_SAMPLES:-0}
 SELECTION_METRIC=${SELECTION_METRIC:-joint}
 EARLY_STOPPING_PATIENCE=${EARLY_STOPPING_PATIENCE:-8}
@@ -83,6 +85,8 @@ echo "=============================="
   echo "encoder_mode=$ENCODER_MODE"
   echo "fusion_strategy=$FUSION_STRATEGY"
   echo "fusion_stage=$FUSION_STAGE"
+  echo "damage_loss_mode=$DAMAGE_LOSS_MODE"
+  echo "damage_loss_alpha=$DAMAGE_LOSS_ALPHA"
 } > "$RUN_DIR/job_info.txt"
 
 echo "Python location:"
@@ -109,6 +113,8 @@ python "$SCRIPT_PATH" \
   --num_workers "$NUM_WORKERS" \
   --base_channels "$BASE_CHANNELS" \
   --cls_weight "$CLS_WEIGHT" \
+  --damage_loss_mode "$DAMAGE_LOSS_MODE" \
+  --damage_loss_alpha "$DAMAGE_LOSS_ALPHA" \
   --debug_samples "$DEBUG_SAMPLES" \
   --selection_metric "$SELECTION_METRIC" \
   --early_stopping_patience "$EARLY_STOPPING_PATIENCE" \

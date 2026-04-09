@@ -33,6 +33,45 @@ IDX_TO_DAMAGE = {
 }
 
 
+class DamageClassificationLoss(nn.Module):
+    def __init__(self, mode="ce", alpha=0.5, num_classes=5, eps=1e-6):
+        super().__init__()
+        self.mode = mode
+        self.alpha = alpha
+        self.num_classes = num_classes
+        self.eps = eps
+        self.cross_entropy = nn.CrossEntropyLoss()
+
+        if self.mode not in {"ce", "ordinal", "hierarchical"}:
+            raise ValueError(f"Unsupported damage loss mode: {self.mode}")
+
+    def _threshold_loss(self, probs, targets, thresholds):
+        threshold_probs = torch.stack([probs[:, threshold:].sum(dim=1) for threshold in thresholds], dim=1)
+        threshold_targets = torch.stack(
+            [(targets >= threshold).float() for threshold in thresholds],
+            dim=1,
+        )
+        return F.binary_cross_entropy(
+            threshold_probs.clamp(self.eps, 1.0 - self.eps),
+            threshold_targets,
+        )
+
+    def forward(self, logits, targets):
+        ce_loss = self.cross_entropy(logits, targets)
+        if self.mode == "ce":
+            return ce_loss
+
+        probs = torch.softmax(logits, dim=1)
+        if self.mode == "ordinal":
+            thresholds = list(range(1, self.num_classes))
+        else:
+            # background -> building present -> any damage -> severe damage
+            thresholds = [1, 2, 3]
+
+        aux_loss = self._threshold_loss(probs, targets, thresholds)
+        return ce_loss + self.alpha * aux_loss
+
+
 def get_scene_key(filename: str) -> str:
     stem = Path(filename).stem
     stem = stem.replace("_pre_disaster", "").replace("_post_disaster", "")
@@ -519,6 +558,8 @@ def main():
     parser.add_argument("--num_workers", type=int, default=4)
     parser.add_argument("--base_channels", type=int, default=32)
     parser.add_argument("--cls_weight", type=float, default=1.0)
+    parser.add_argument("--damage_loss_mode", type=str, default="ce", choices=["ce", "ordinal", "hierarchical"])
+    parser.add_argument("--damage_loss_alpha", type=float, default=0.5)
     parser.add_argument("--debug_samples", type=int, default=0)
     parser.add_argument("--selection_metric", type=str, default="joint", choices=["joint", "dice", "cls_f1", "cls_acc"])
     parser.add_argument("--early_stopping_patience", type=int, default=8)
@@ -555,7 +596,9 @@ def main():
         f"Config | input_mode={args.input_mode} | "
         f"encoder_mode={args.encoder_mode} | "
         f"fusion_strategy={args.fusion_strategy} | "
-        f"fusion_stage={args.fusion_stage}"
+        f"fusion_stage={args.fusion_stage} | "
+        f"damage_loss_mode={args.damage_loss_mode} | "
+        f"damage_loss_alpha={args.damage_loss_alpha}"
     )
     if args.early_stopping_patience > 0:
         print(
@@ -594,7 +637,11 @@ def main():
     ).to(device)
 
     seg_criterion = nn.CrossEntropyLoss()
-    cls_criterion = nn.CrossEntropyLoss()
+    cls_criterion = DamageClassificationLoss(
+        mode=args.damage_loss_mode,
+        alpha=args.damage_loss_alpha,
+        num_classes=5,
+    )
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
 
     metrics_path = os.path.join(run_dir, "metrics.csv")
