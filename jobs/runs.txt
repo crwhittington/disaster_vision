@@ -1,9 +1,6 @@
-Pending April 7-8 overnight
-- Change experiment with default parameters and longer epochs (more learning)
-- Baseline version 2 (more epochs compared to version 1)
+Pending April 8 
 
-- Change experiment (after-only-baseline with more learning)
-- Siamese_shared_concat_bottleneck_tuned (Job 4 with more learning)
+
 
 
 Finished
@@ -11,3 +8,5 @@ Finished
 2. Baseline_xview2_11319760_20260407_180713
 3. Baseline_xview2_11320199_20260407_192602
 4. siamese_shared_concat_bottleneck_only_11321642_20260407_210751
+5. siamese_shared_concat_multiscale_tuned_11324148_20260408_022353
+6. baseline_xview2_v2_11321747_20260408_023414
