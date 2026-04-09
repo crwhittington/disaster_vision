@@ -1,0 +1,114 @@
+==============================
+Job started at: Wed Apr  8 21:01:14 EDT 2026
+Running on host: udc-an40-29
+Working directory: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+SLURM job ID: 11381201
+Run directory: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113
+Experiment: after_only_baseline_tuned
+==============================
+Python location:
+/home/xxn2pb/venvs/disaster_vision/bin/python
+Python version:
+Python 3.11.4
+GPU check:
+Wed Apr  8 21:01:14 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX A6000               Off |   00000000:41:00.0 Off |                  Off |
+| 30%   28C    P8             35W /  300W |      20MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A          804282      G   /usr/libexec/Xorg                         8MiB |
++-----------------------------------------------------------------------------------------+
+Using device: cuda
+Experiment name: after_only_baseline_tuned
+Train root: /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1
+Val root: /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold
+Run dir: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113
+Config | input_mode=after_only | encoder_mode=shared | fusion_strategy=concat | fusion_stage=bottleneck_only
+Train samples: 2799
+Val samples: 933
+Epoch 1/50 | train_total=3.4163 | train_seg=0.3939 | train_cls=1.5112 | val_total=3.2321 | val_seg=0.2708 | val_cls=1.4807 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3558 | val_cls_f1=0.1146 | val_joint=0.3480
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 2/50 | train_total=3.2618 | train_seg=0.2600 | train_cls=1.5009 | val_total=3.1885 | val_seg=0.2542 | val_cls=1.4672 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3558 | val_cls_f1=0.1146 | val_joint=0.3480
+Epoch 3/50 | train_total=3.2354 | train_seg=0.2471 | train_cls=1.4941 | val_total=3.1555 | val_seg=0.2433 | val_cls=1.4561 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3558 | val_cls_f1=0.1146 | val_joint=0.3480
+Epoch 4/50 | train_total=3.1780 | train_seg=0.2397 | train_cls=1.4691 | val_total=3.0866 | val_seg=0.2464 | val_cls=1.4201 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.3741 | val_cls_f1=0.1565 | val_joint=0.3690
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 5/50 | train_total=3.0379 | train_seg=0.2287 | train_cls=1.4046 | val_total=2.8693 | val_seg=0.2290 | val_cls=1.3202 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.4341 | val_cls_f1=0.1465 | val_joint=0.3640
+Epoch 6/50 | train_total=2.9176 | train_seg=0.2188 | train_cls=1.3494 | val_total=2.8984 | val_seg=0.2170 | val_cls=1.3407 | val_dice=0.5815 | val_iou=0.5815 | val_cls_acc=0.4394 | val_cls_f1=0.1427 | val_joint=0.3621
+Epoch 7/50 | train_total=2.8227 | train_seg=0.2129 | train_cls=1.3049 | val_total=2.7693 | val_seg=0.2074 | val_cls=1.2810 | val_dice=0.5651 | val_iou=0.5573 | val_cls_acc=0.4845 | val_cls_f1=0.1582 | val_joint=0.3617
+Epoch 8/50 | train_total=2.7734 | train_seg=0.2088 | train_cls=1.2823 | val_total=2.6864 | val_seg=0.2073 | val_cls=1.2396 | val_dice=0.5719 | val_iou=0.5590 | val_cls_acc=0.4791 | val_cls_f1=0.1546 | val_joint=0.3632
+Epoch 9/50 | train_total=2.7431 | train_seg=0.2090 | train_cls=1.2671 | val_total=2.6431 | val_seg=0.2037 | val_cls=1.2197 | val_dice=0.5707 | val_iou=0.5634 | val_cls_acc=0.5038 | val_cls_f1=0.1716 | val_joint=0.3711
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 10/50 | train_total=2.6950 | train_seg=0.2036 | train_cls=1.2457 | val_total=2.6314 | val_seg=0.2038 | val_cls=1.2138 | val_dice=0.5712 | val_iou=0.5600 | val_cls_acc=0.5198 | val_cls_f1=0.1821 | val_joint=0.3766
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 11/50 | train_total=2.6385 | train_seg=0.1995 | train_cls=1.2195 | val_total=2.5455 | val_seg=0.1982 | val_cls=1.1737 | val_dice=0.5806 | val_iou=0.5680 | val_cls_acc=0.5348 | val_cls_f1=0.1757 | val_joint=0.3781
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 12/50 | train_total=2.6231 | train_seg=0.1984 | train_cls=1.2124 | val_total=2.5634 | val_seg=0.2138 | val_cls=1.1748 | val_dice=0.5812 | val_iou=0.5753 | val_cls_acc=0.5241 | val_cls_f1=0.1681 | val_joint=0.3747
+Epoch 13/50 | train_total=2.5798 | train_seg=0.1943 | train_cls=1.1927 | val_total=2.6185 | val_seg=0.1960 | val_cls=1.2113 | val_dice=0.5789 | val_iou=0.5673 | val_cls_acc=0.5134 | val_cls_f1=0.1851 | val_joint=0.3820
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 14/50 | train_total=2.5667 | train_seg=0.1924 | train_cls=1.1872 | val_total=2.6227 | val_seg=0.2057 | val_cls=1.2085 | val_dice=0.5795 | val_iou=0.5657 | val_cls_acc=0.5198 | val_cls_f1=0.2051 | val_joint=0.3923
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 15/50 | train_total=2.5230 | train_seg=0.1923 | train_cls=1.1653 | val_total=2.4932 | val_seg=0.1979 | val_cls=1.1477 | val_dice=0.5772 | val_iou=0.5704 | val_cls_acc=0.5477 | val_cls_f1=0.2024 | val_joint=0.3898
+Epoch 16/50 | train_total=2.4830 | train_seg=0.1900 | train_cls=1.1465 | val_total=2.4896 | val_seg=0.1984 | val_cls=1.1456 | val_dice=0.5766 | val_iou=0.5686 | val_cls_acc=0.5606 | val_cls_f1=0.2149 | val_joint=0.3957
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 17/50 | train_total=2.4878 | train_seg=0.1903 | train_cls=1.1487 | val_total=2.4694 | val_seg=0.1891 | val_cls=1.1401 | val_dice=0.5840 | val_iou=0.5689 | val_cls_acc=0.5702 | val_cls_f1=0.2203 | val_joint=0.4021
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 18/50 | train_total=2.4487 | train_seg=0.1863 | train_cls=1.1312 | val_total=2.4448 | val_seg=0.1914 | val_cls=1.1267 | val_dice=0.5787 | val_iou=0.5649 | val_cls_acc=0.5895 | val_cls_f1=0.2342 | val_joint=0.4065
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 19/50 | train_total=2.4319 | train_seg=0.1856 | train_cls=1.1231 | val_total=2.3991 | val_seg=0.1900 | val_cls=1.1046 | val_dice=0.5807 | val_iou=0.5657 | val_cls_acc=0.5809 | val_cls_f1=0.2241 | val_joint=0.4024
+Epoch 20/50 | train_total=2.4071 | train_seg=0.1856 | train_cls=1.1108 | val_total=2.3875 | val_seg=0.1891 | val_cls=1.0992 | val_dice=0.5739 | val_iou=0.5605 | val_cls_acc=0.5874 | val_cls_f1=0.2256 | val_joint=0.3997
+Epoch 21/50 | train_total=2.3661 | train_seg=0.1811 | train_cls=1.0925 | val_total=2.3722 | val_seg=0.1830 | val_cls=1.0946 | val_dice=0.5860 | val_iou=0.5711 | val_cls_acc=0.5916 | val_cls_f1=0.2299 | val_joint=0.4080
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 22/50 | train_total=2.3204 | train_seg=0.1819 | train_cls=1.0692 | val_total=2.3297 | val_seg=0.1842 | val_cls=1.0727 | val_dice=0.5791 | val_iou=0.5653 | val_cls_acc=0.5852 | val_cls_f1=0.2300 | val_joint=0.4046
+Epoch 23/50 | train_total=2.3058 | train_seg=0.1804 | train_cls=1.0627 | val_total=2.3654 | val_seg=0.1853 | val_cls=1.0900 | val_dice=0.5858 | val_iou=0.5741 | val_cls_acc=0.5884 | val_cls_f1=0.2356 | val_joint=0.4107
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 24/50 | train_total=2.2817 | train_seg=0.1782 | train_cls=1.0518 | val_total=2.3468 | val_seg=0.1851 | val_cls=1.0808 | val_dice=0.5866 | val_iou=0.5696 | val_cls_acc=0.5766 | val_cls_f1=0.2274 | val_joint=0.4070
+Epoch 25/50 | train_total=2.2566 | train_seg=0.1779 | train_cls=1.0394 | val_total=2.3310 | val_seg=0.1831 | val_cls=1.0739 | val_dice=0.5788 | val_iou=0.5670 | val_cls_acc=0.5895 | val_cls_f1=0.2395 | val_joint=0.4092
+Epoch 26/50 | train_total=2.2329 | train_seg=0.1766 | train_cls=1.0281 | val_total=2.3072 | val_seg=0.1835 | val_cls=1.0618 | val_dice=0.5729 | val_iou=0.5609 | val_cls_acc=0.6109 | val_cls_f1=0.2387 | val_joint=0.4058
+Epoch 27/50 | train_total=2.2074 | train_seg=0.1747 | train_cls=1.0163 | val_total=2.2741 | val_seg=0.1788 | val_cls=1.0477 | val_dice=0.5736 | val_iou=0.5574 | val_cls_acc=0.6034 | val_cls_f1=0.2338 | val_joint=0.4037
+Epoch 28/50 | train_total=2.1787 | train_seg=0.1725 | train_cls=1.0031 | val_total=2.2512 | val_seg=0.1774 | val_cls=1.0369 | val_dice=0.5754 | val_iou=0.5590 | val_cls_acc=0.5938 | val_cls_f1=0.2361 | val_joint=0.4058
+Epoch 29/50 | train_total=2.1226 | train_seg=0.1701 | train_cls=0.9763 | val_total=2.1616 | val_seg=0.1784 | val_cls=0.9916 | val_dice=0.5929 | val_iou=0.5749 | val_cls_acc=0.6324 | val_cls_f1=0.2573 | val_joint=0.4251
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 30/50 | train_total=2.1256 | train_seg=0.1717 | train_cls=0.9769 | val_total=2.2156 | val_seg=0.1788 | val_cls=1.0184 | val_dice=0.5734 | val_iou=0.5549 | val_cls_acc=0.6184 | val_cls_f1=0.2467 | val_joint=0.4100
+Epoch 31/50 | train_total=2.1000 | train_seg=0.1695 | train_cls=0.9653 | val_total=2.4265 | val_seg=0.1850 | val_cls=1.1208 | val_dice=0.5556 | val_iou=0.5440 | val_cls_acc=0.6013 | val_cls_f1=0.2327 | val_joint=0.3941
+Epoch 32/50 | train_total=2.0735 | train_seg=0.1674 | train_cls=0.9530 | val_total=2.1333 | val_seg=0.1726 | val_cls=0.9804 | val_dice=0.5693 | val_iou=0.5523 | val_cls_acc=0.6420 | val_cls_f1=0.2617 | val_joint=0.4155
+Epoch 33/50 | train_total=2.0363 | train_seg=0.1685 | train_cls=0.9339 | val_total=2.1846 | val_seg=0.1745 | val_cls=1.0051 | val_dice=0.5728 | val_iou=0.5551 | val_cls_acc=0.6184 | val_cls_f1=0.2503 | val_joint=0.4115
+Epoch 34/50 | train_total=2.0354 | train_seg=0.1672 | train_cls=0.9341 | val_total=2.2572 | val_seg=0.1722 | val_cls=1.0425 | val_dice=0.5778 | val_iou=0.5616 | val_cls_acc=0.6141 | val_cls_f1=0.2536 | val_joint=0.4157
+Epoch 35/50 | train_total=1.9932 | train_seg=0.1663 | train_cls=0.9134 | val_total=2.2007 | val_seg=0.1727 | val_cls=1.0140 | val_dice=0.5536 | val_iou=0.5366 | val_cls_acc=0.6377 | val_cls_f1=0.2672 | val_joint=0.4104
+Epoch 36/50 | train_total=2.0015 | train_seg=0.1656 | train_cls=0.9179 | val_total=2.2066 | val_seg=0.1739 | val_cls=1.0163 | val_dice=0.5829 | val_iou=0.5687 | val_cls_acc=0.6313 | val_cls_f1=0.2677 | val_joint=0.4253
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 37/50 | train_total=1.9421 | train_seg=0.1659 | train_cls=0.8881 | val_total=2.1790 | val_seg=0.1734 | val_cls=1.0028 | val_dice=0.5739 | val_iou=0.5600 | val_cls_acc=0.6527 | val_cls_f1=0.2675 | val_joint=0.4207
+Epoch 38/50 | train_total=1.9295 | train_seg=0.1627 | train_cls=0.8834 | val_total=2.2063 | val_seg=0.1777 | val_cls=1.0143 | val_dice=0.5668 | val_iou=0.5502 | val_cls_acc=0.6302 | val_cls_f1=0.2566 | val_joint=0.4117
+Epoch 39/50 | train_total=1.9251 | train_seg=0.1657 | train_cls=0.8797 | val_total=2.1578 | val_seg=0.1706 | val_cls=0.9936 | val_dice=0.5622 | val_iou=0.5458 | val_cls_acc=0.6163 | val_cls_f1=0.2502 | val_joint=0.4062
+Epoch 40/50 | train_total=1.9014 | train_seg=0.1624 | train_cls=0.8695 | val_total=2.1632 | val_seg=0.1705 | val_cls=0.9964 | val_dice=0.5780 | val_iou=0.5592 | val_cls_acc=0.6313 | val_cls_f1=0.2565 | val_joint=0.4173
+Epoch 41/50 | train_total=1.8676 | train_seg=0.1602 | train_cls=0.8537 | val_total=2.0994 | val_seg=0.1784 | val_cls=0.9605 | val_dice=0.5719 | val_iou=0.5522 | val_cls_acc=0.6377 | val_cls_f1=0.2605 | val_joint=0.4162
+Epoch 42/50 | train_total=1.8461 | train_seg=0.1625 | train_cls=0.8418 | val_total=2.1570 | val_seg=0.1755 | val_cls=0.9908 | val_dice=0.5654 | val_iou=0.5464 | val_cls_acc=0.6409 | val_cls_f1=0.2622 | val_joint=0.4138
+Epoch 43/50 | train_total=1.7852 | train_seg=0.1588 | train_cls=0.8132 | val_total=2.2051 | val_seg=0.1665 | val_cls=1.0193 | val_dice=0.5733 | val_iou=0.5542 | val_cls_acc=0.6442 | val_cls_f1=0.2842 | val_joint=0.4288
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/best_model.pt
+Epoch 44/50 | train_total=1.7644 | train_seg=0.1577 | train_cls=0.8033 | val_total=2.1448 | val_seg=0.1649 | val_cls=0.9900 | val_dice=0.5377 | val_iou=0.5177 | val_cls_acc=0.6388 | val_cls_f1=0.2654 | val_joint=0.4015
+Epoch 45/50 | train_total=1.7534 | train_seg=0.1579 | train_cls=0.7978 | val_total=2.1771 | val_seg=0.1646 | val_cls=1.0063 | val_dice=0.5574 | val_iou=0.5388 | val_cls_acc=0.6442 | val_cls_f1=0.2693 | val_joint=0.4133
+Epoch 46/50 | train_total=1.7410 | train_seg=0.1582 | train_cls=0.7914 | val_total=2.3858 | val_seg=0.1715 | val_cls=1.1071 | val_dice=0.5454 | val_iou=0.5260 | val_cls_acc=0.6217 | val_cls_f1=0.2678 | val_joint=0.4066
+Epoch 47/50 | train_total=1.7193 | train_seg=0.1573 | train_cls=0.7810 | val_total=2.1902 | val_seg=0.1707 | val_cls=1.0098 | val_dice=0.5646 | val_iou=0.5484 | val_cls_acc=0.6174 | val_cls_f1=0.2534 | val_joint=0.4090
+Epoch 48/50 | train_total=1.6817 | train_seg=0.1562 | train_cls=0.7627 | val_total=2.2085 | val_seg=0.1657 | val_cls=1.0214 | val_dice=0.5849 | val_iou=0.5670 | val_cls_acc=0.6388 | val_cls_f1=0.2640 | val_joint=0.4244
+Epoch 49/50 | train_total=1.6864 | train_seg=0.1565 | train_cls=0.7649 | val_total=2.3324 | val_seg=0.1669 | val_cls=1.0827 | val_dice=0.5233 | val_iou=0.5040 | val_cls_acc=0.6066 | val_cls_f1=0.2380 | val_joint=0.3806
+Epoch 50/50 | train_total=1.6177 | train_seg=0.1545 | train_cls=0.7316 | val_total=2.2869 | val_seg=0.1690 | val_cls=1.0590 | val_dice=0.5105 | val_iou=0.4945 | val_cls_acc=0.6356 | val_cls_f1=0.2621 | val_joint=0.3863
+Finished training.
+Best joint_score: 0.4288
+Metrics saved to: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/metrics.csv
+Plots saved to: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs/after_only_baseline_tuned_11381201_20260408_210113/plots
+==============================
+Job ended at: Wed Apr  8 21:31:34 EDT 2026
+Total runtime: 1819 seconds
+==============================
