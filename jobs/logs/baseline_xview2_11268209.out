@@ -1,0 +1,79 @@
+==============================
+Job started at: Tue Apr  7 02:48:20 EDT 2026
+Running on host: udc-ba06-38
+Working directory: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+SLURM job ID: 11268209
+==============================
+Python location:
+/home/xxn2pb/venvs/disaster_vision/bin/python
+Python version:
+Python 3.11.4
+GPU check:
+Tue Apr  7 02:48:20 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A40                     Off |   00000000:04:00.0 Off |                    0 |
+|  0%   25C    P8             28W /  300W |     117MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A           20842      G   /usr/libexec/Xorg                       106MiB |
++-----------------------------------------------------------------------------------------+
+Checking key paths...
+baseline_test_output
+logs
+run_siamese_baseline_cpu.slurm
+run_siamese_baseline.slurm
+siamese_baseline.py
+slurm-11265533.out
+slurm-11266543.out
+hold
+test
+tier1
+tier3
+images_jpeg
+labels
+images_jpeg
+labels
+Using device: cuda
+Train root: /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1
+Val root: /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold
+Save dir: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/baseline_test_output
+Train samples: 2799
+Val samples: 933
+Epoch 1/5 | train_loss=0.0066 | val_loss=0.0000 | val_dice=1.0000 | val_iou=1.0000
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/baseline_test_output/best_model.pt
+Epoch 2/5 | train_loss=0.0000 | val_loss=0.0000 | val_dice=1.0000 | val_iou=1.0000
+Epoch 3/5 | train_loss=0.0000 | val_loss=0.0000 | val_dice=1.0000 | val_iou=1.0000
+Epoch 4/5 | train_loss=0.0000 | val_loss=0.0000 | val_dice=1.0000 | val_iou=1.0000
+Epoch 5/5 | train_loss=0.0000 | val_loss=0.0000 | val_dice=1.0000 | val_iou=1.0000
+Finished training.
+Best val dice: 1.0000
+Metrics saved to: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/baseline_test_output/metrics.csv
+==============================
+Job ended at: Tue Apr  7 02:51:10 EDT 2026
+Total runtime: 169 seconds
+==============================
+
+$seff 11268209
+Job ID: 11268209
+Cluster: shen
+User/Group: xxn2pb/users
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 6
+CPU Utilized: 00:09:48
+CPU Efficiency: 57.31% of 00:17:06 core-walltime
+Job Wall-clock time: 00:02:51
+Memory Utilized: 1.49 GB
+Memory Efficiency: 3.11% of 48.00 GB (48.00 GB/node)

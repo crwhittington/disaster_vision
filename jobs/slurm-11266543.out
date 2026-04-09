@@ -1,0 +1,42 @@
+/var/spool/slurm/slurmd/job11266543/slurm_script: line 4: =#SBATCH: command not found
+==============================
+Job started at: Mon Apr  6 23:50:22 EDT 2026
+Running on host: udc-aw32-3c0
+Working directory: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+SLURM job ID: 11266543
+==============================
+Python location:
+/home/xxn2pb/venvs/disaster_vision/bin/python
+Python version:
+Python 3.11.4
+GPU check:
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+
+Checking key paths...
+logs
+run_siamese_baseline_cpu.slurm
+run_siamese_baseline.slurm
+siamese_baseline.py
+slurm-11265533.out
+slurm-11266543.out
+hold
+test
+tier1
+tier3
+images_jpeg
+labels
+images_jpeg
+labels
+Using device: cpu
+Train root: ../../siamese_project/data/xview2_jpg/tier1
+Val root: ../../siamese_project/data/xview2_jpg/hold
+Save dir: baseline_test_output
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/siamese_baseline.py", line 453, in <module>
+    main()
+  File "/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/siamese_baseline.py", line 392, in main
+    train_ds = XView2SiameseDataset(args.train_root, image_size=args.image_size)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/siamese_baseline.py", line 120, in __init__
+    raise FileNotFoundError(f"Missing images_jpeg folder: {self.images_dir}")
+FileNotFoundError: Missing images_jpeg folder: ../../siamese_project/data/xview2_jpg/tier1/images_jpeg

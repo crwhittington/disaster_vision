@@ -1,0 +1,22 @@
+{
+  "train_root": "/sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1",
+  "val_root": "/sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold",
+  "save_dir": "/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs",
+  "run_name": "siamese_shared_concat_bottleneck_only_11321642_20260407_210751",
+  "exp_name": "siamese_shared_concat_bottleneck_only",
+  "epochs": 5,
+  "batch_size": 4,
+  "image_size": 256,
+  "lr": 0.001,
+  "num_workers": 4,
+  "base_channels": 32,
+  "cls_weight": 1.0,
+  "debug_samples": 0,
+  "selection_metric": "joint",
+  "input_mode": "siamese",
+  "encoder_mode": "shared",
+  "fusion_strategy": "concat",
+  "fusion_stage": "bottleneck_only",
+  "resolved_experiment_name": "siamese_shared_concat_bottleneck_only",
+  "resolved_run_name": "siamese_shared_concat_bottleneck_only_11321642_20260407_210751"
+}

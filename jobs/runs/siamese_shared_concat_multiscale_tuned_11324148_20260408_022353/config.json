@@ -1,0 +1,22 @@
+{
+  "train_root": "/sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1",
+  "val_root": "/sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold",
+  "save_dir": "/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/runs",
+  "run_name": "siamese_shared_concat_multiscale_tuned_11324148_20260408_022353",
+  "exp_name": "siamese_shared_concat_multiscale_tuned",
+  "epochs": 20,
+  "batch_size": 8,
+  "image_size": 256,
+  "lr": 0.0003,
+  "num_workers": 4,
+  "base_channels": 32,
+  "cls_weight": 2.0,
+  "debug_samples": 0,
+  "selection_metric": "joint",
+  "input_mode": "siamese",
+  "encoder_mode": "shared",
+  "fusion_strategy": "concat",
+  "fusion_stage": "multiscale",
+  "resolved_experiment_name": "siamese_shared_concat_multiscale_tuned",
+  "resolved_run_name": "siamese_shared_concat_multiscale_tuned_11324148_20260408_022353"
+}

@@ -1,0 +1,21 @@
+/var/spool/slurm/slurmd/job11265533/slurm_script: line 4: =#SBATCH: command not found
+==============================
+Job started at: Mon Apr  6 23:37:21 EDT 2026
+Running on host: udc-aw32-23c1
+Working directory: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+SLURM job ID: 11265533
+==============================
+Python location:
+/home/xxn2pb/venvs/disaster_vision/bin/python
+Python version:
+Python 3.11.4
+GPU check:
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+
+Checking key paths...
+logs
+run_siamese_baseline_cpu.slurm
+run_siamese_baseline.slurm
+siamese_baseline.py
+slurm-11265533.out
+ls: cannot access '../../siamese_project/data/xview2_jpg': No such file or directory

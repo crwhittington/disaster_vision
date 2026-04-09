@@ -1,0 +1,2 @@
+/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/siamese_baseline.py:206: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  damage_mask = torch.tensor(list(damage_mask.getdata()), dtype=torch.long).view(damage_mask.size[1], damage_mask.size[0])

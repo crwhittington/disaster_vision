@@ -1,0 +1,61 @@
+==============================
+Job started at: Tue Apr  7 00:19:42 EDT 2026
+Running on host: udc-ba03-10c0
+Working directory: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
+SLURM job ID: 11268319
+==============================
+Python location:
+/home/xxn2pb/venvs/disaster_vision/bin/python
+Python version:
+Python 3.11.4
+GPU check:
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+
+Checking key paths...
+baseline_test_output
+logs
+run_siamese_baseline_cpu.slurm
+run_siamese_baseline.slurm
+siamese_baseline.py
+slurm-11265533.out
+slurm-11266543.out
+hold
+test
+tier1
+tier3
+images_jpeg
+labels
+images_jpeg
+labels
+Using device: cpu
+Train root: /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1
+Val root: /sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold
+Save dir: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/baseline_test_output
+Train samples: 2799
+Val samples: 933
+Epoch 1/5 | train_loss=0.0067 | val_loss=0.0000 | val_dice=1.0000 | val_iou=1.0000
+Saved best model to /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/baseline_test_output/best_model.pt
+Epoch 2/5 | train_loss=0.0000 | val_loss=0.0000 | val_dice=1.0000 | val_iou=1.0000
+Epoch 3/5 | train_loss=0.0000 | val_loss=0.0000 | val_dice=1.0000 | val_iou=1.0000
+Epoch 4/5 | train_loss=0.0000 | val_loss=0.0000 | val_dice=1.0000 | val_iou=1.0000
+Epoch 5/5 | train_loss=0.0000 | val_loss=0.0000 | val_dice=1.0000 | val_iou=1.0000
+Finished training.
+Best val dice: 1.0000
+Metrics saved to: /sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/baseline_test_output/metrics.csv
+==============================
+Job ended at: Tue Apr  7 05:20:45 EDT 2026
+Total runtime: 18063 seconds
+==============================
+
+bash-4.4$seff 11268319
+Job ID: 11268319
+Cluster: shen
+User/Group: xxn2pb/users
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 2-16:45:13
+CPU Efficiency: 80.66% of 3-08:17:04 core-walltime
+Job Wall-clock time: 05:01:04
+Memory Utilized: 3.52 GB
+Memory Efficiency: 2.75% of 128.00 GB (128.00 GB/node)

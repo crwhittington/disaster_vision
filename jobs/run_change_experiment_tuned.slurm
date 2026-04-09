@@ -4,7 +4,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --output=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/logs/%x_%j.out
 #SBATCH --error=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs/logs/%x_%j.err
-#SBATCH --time=04:00:00
+#SBATCH --time=00:30:00
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=24G
 
@@ -19,7 +19,7 @@ SCRIPT_PATH=$JOBS_ROOT/change_family_experiments.py
 EXPERIMENT_NAME=${EXPERIMENT_NAME:-siamese_shared_concat_multiscale_tuned}
 TRAIN_ROOT=${TRAIN_ROOT:-/sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/tier1}
 VAL_ROOT=${VAL_ROOT:-/sfs/gpfs/tardis/home/xxn2pb/siamese_project/data/xview2_jpeg/hold}
-EPOCHS=${EPOCHS:-20}
+EPOCHS=${EPOCHS:-50}
 BATCH_SIZE=${BATCH_SIZE:-8}
 IMAGE_SIZE=${IMAGE_SIZE:-256}
 NUM_WORKERS=${NUM_WORKERS:-4}

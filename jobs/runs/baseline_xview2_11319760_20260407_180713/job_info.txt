@@ -1,0 +1,6 @@
+run_id=baseline_xview2_11319760_20260407_180713
+job_name=baseline_xview2
+job_id=11319760
+hostname=udc-ba06-38
+started_at=2026-04-07T18:07:15-04:00
+working_dir=/sfs/gpfs/tardis/home/xxn2pb/disaster_vision/jobs
