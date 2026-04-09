@@ -521,12 +521,17 @@ def main():
     parser.add_argument("--cls_weight", type=float, default=1.0)
     parser.add_argument("--debug_samples", type=int, default=0)
     parser.add_argument("--selection_metric", type=str, default="joint", choices=["joint", "dice", "cls_f1", "cls_acc"])
+    parser.add_argument("--early_stopping_patience", type=int, default=12)
+    parser.add_argument("--early_stopping_min_delta", type=float, default=0.0)
 
     parser.add_argument("--input_mode", type=str, default="siamese", choices=["after_only", "siamese"])
     parser.add_argument("--encoder_mode", type=str, default="shared", choices=["shared", "separate"])
     parser.add_argument("--fusion_strategy", type=str, default="concat", choices=["concat", "absdiff", "concat_absdiff"])
     parser.add_argument("--fusion_stage", type=str, default="bottleneck_only", choices=["bottleneck_only", "multiscale"])
     args = parser.parse_args()
+
+    if args.early_stopping_patience < 0:
+        raise ValueError("--early_stopping_patience must be >= 0")
 
     if args.input_mode == "after_only":
         args.encoder_mode = "shared"
@@ -552,6 +557,13 @@ def main():
         f"fusion_strategy={args.fusion_strategy} | "
         f"fusion_stage={args.fusion_stage}"
     )
+    if args.early_stopping_patience > 0:
+        print(
+            f"Early stopping | patience={args.early_stopping_patience} | "
+            f"min_delta={args.early_stopping_min_delta}"
+        )
+    else:
+        print("Early stopping | disabled")
 
     train_ds = XView2ChangeDataset(args.train_root, image_size=args.image_size, debug_samples=args.debug_samples)
     val_ds = XView2ChangeDataset(args.val_root, image_size=args.image_size, debug_samples=args.debug_samples)
@@ -611,6 +623,9 @@ def main():
         "cls_acc": "cls_acc",
     }[args.selection_metric]
     best_value = -1.0
+    best_epoch = 0
+    epochs_without_improvement = 0
+    stopped_early = False
 
     with open(metrics_path, "w", newline="") as f:
         writer = csv.writer(f)
@@ -681,14 +696,34 @@ def main():
             history["val_cls_f1"].append(val_metrics["cls_f1"])
             history["val_joint_score"].append(val_metrics["joint_score"])
 
-            if val_metrics[selection_key] > best_value:
-                best_value = val_metrics[selection_key]
+            current_value = val_metrics[selection_key]
+            if current_value > best_value + args.early_stopping_min_delta:
+                best_value = current_value
+                best_epoch = epoch
+                epochs_without_improvement = 0
                 torch.save(model.state_dict(), best_model_path)
                 print(f"Saved best model to {best_model_path}")
+            else:
+                epochs_without_improvement += 1
+
+            if (
+                args.early_stopping_patience > 0
+                and epochs_without_improvement >= args.early_stopping_patience
+            ):
+                stopped_early = True
+                print(
+                    f"Early stopping triggered at epoch {epoch} after "
+                    f"{epochs_without_improvement} epochs without "
+                    f"{selection_key} improvement greater than "
+                    f"{args.early_stopping_min_delta}."
+                )
+                break
 
     save_training_plots(history, plot_dir)
     print("Finished training.")
-    print(f"Best {selection_key}: {best_value:.4f}")
+    print(f"Best {selection_key}: {best_value:.4f} at epoch {best_epoch}")
+    if stopped_early:
+        print(f"Training stopped early at epoch {history['epoch'][-1]}.")
     print(f"Metrics saved to: {metrics_path}")
     print(f"Plots saved to: {plot_dir}")
 
