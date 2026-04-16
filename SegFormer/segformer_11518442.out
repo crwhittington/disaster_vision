@@ -1,0 +1,465 @@
+Torch version: 2.11.0+cu130
+CUDA available: True
+Torch CUDA version: 13.0
+CUDA device name: NVIDIA RTX A6000
+Device: cuda
+Train dataset size: 2799
+Val dataset size: 933
+Test dataset size: 933
+Sample image shape: torch.Size([6, 1024, 1024])
+Sample pre-mask shape: torch.Size([1024, 1024])
+Sample post-mask shape: torch.Size([1024, 1024])
+Sample post-mask unique values: tensor([0, 1])
+
+Epoch 1/100
+Train Loss: 0.0788
+Val Loss: 0.0752
+Val IoU All: 0.1044
+Val Dice All: 0.1379
+Val F1 All: 0.1379
+Val IoU Damage: 0.1158
+Val Dice Damage: 0.1494
+Val F1 Damage: 0.1494
+Early stopping counter: 0/10
+
+Epoch 2/100
+Train Loss: 0.0695
+Val Loss: 0.0712
+Val IoU All: 0.1308
+Val Dice All: 0.1673
+Val F1 All: 0.1673
+Val IoU Damage: 0.1426
+Val Dice Damage: 0.1781
+Val F1 Damage: 0.1781
+Early stopping counter: 0/10
+
+Epoch 3/100
+Train Loss: 0.0563
+Val Loss: 0.0653
+Val IoU All: 0.0869
+Val Dice All: 0.1157
+Val F1 All: 0.1157
+Val IoU Damage: 0.0911
+Val Dice Damage: 0.1189
+Val F1 Damage: 0.1189
+Early stopping counter: 1/10
+
+Epoch 4/100
+Train Loss: 0.0577
+Val Loss: 0.0578
+Val IoU All: 0.1650
+Val Dice All: 0.2018
+Val F1 All: 0.2018
+Val IoU Damage: 0.1833
+Val Dice Damage: 0.2179
+Val F1 Damage: 0.2179
+Early stopping counter: 0/10
+
+Epoch 5/100
+Train Loss: 0.0465
+Val Loss: 0.0562
+Val IoU All: 0.1754
+Val Dice All: 0.2104
+Val F1 All: 0.2104
+Val IoU Damage: 0.1917
+Val Dice Damage: 0.2228
+Val F1 Damage: 0.2228
+Early stopping counter: 0/10
+
+Epoch 6/100
+Train Loss: 0.0412
+Val Loss: 0.0561
+Val IoU All: 0.1777
+Val Dice All: 0.2141
+Val F1 All: 0.2141
+Val IoU Damage: 0.1933
+Val Dice Damage: 0.2252
+Val F1 Damage: 0.2252
+Early stopping counter: 0/10
+
+Epoch 7/100
+Train Loss: 0.0384
+Val Loss: 0.0589
+Val IoU All: 0.2009
+Val Dice All: 0.2388
+Val F1 All: 0.2388
+Val IoU Damage: 0.2191
+Val Dice Damage: 0.2518
+Val F1 Damage: 0.2518
+Early stopping counter: 0/10
+
+Epoch 8/100
+Train Loss: 0.0340
+Val Loss: 0.0646
+Val IoU All: 0.1677
+Val Dice All: 0.2072
+Val F1 All: 0.2072
+Val IoU Damage: 0.1823
+Val Dice Damage: 0.2178
+Val F1 Damage: 0.2178
+Early stopping counter: 1/10
+
+Epoch 9/100
+Train Loss: 0.0309
+Val Loss: 0.0546
+Val IoU All: 0.1842
+Val Dice All: 0.2222
+Val F1 All: 0.2222
+Val IoU Damage: 0.2029
+Val Dice Damage: 0.2371
+Val F1 Damage: 0.2371
+Early stopping counter: 2/10
+
+Epoch 10/100
+Train Loss: 0.0300
+Val Loss: 0.0745
+Val IoU All: 0.1807
+Val Dice All: 0.2203
+Val F1 All: 0.2203
+Val IoU Damage: 0.2010
+Val Dice Damage: 0.2382
+Val F1 Damage: 0.2382
+Early stopping counter: 3/10
+
+Epoch 11/100
+Train Loss: 0.0271
+Val Loss: 0.0683
+Val IoU All: 0.1863
+Val Dice All: 0.2270
+Val F1 All: 0.2270
+Val IoU Damage: 0.2059
+Val Dice Damage: 0.2425
+Val F1 Damage: 0.2425
+Early stopping counter: 4/10
+
+Epoch 12/100
+Train Loss: 0.0260
+Val Loss: 0.0656
+Val IoU All: 0.2096
+Val Dice All: 0.2522
+Val F1 All: 0.2522
+Val IoU Damage: 0.2264
+Val Dice Damage: 0.2618
+Val F1 Damage: 0.2618
+Early stopping counter: 0/10
+
+Epoch 13/100
+Train Loss: 0.0235
+Val Loss: 0.0713
+Val IoU All: 0.2195
+Val Dice All: 0.2627
+Val F1 All: 0.2627
+Val IoU Damage: 0.2371
+Val Dice Damage: 0.2723
+Val F1 Damage: 0.2723
+Early stopping counter: 0/10
+
+Epoch 14/100
+Train Loss: 0.0216
+Val Loss: 0.0723
+Val IoU All: 0.2207
+Val Dice All: 0.2646
+Val F1 All: 0.2646
+Val IoU Damage: 0.2407
+Val Dice Damage: 0.2779
+Val F1 Damage: 0.2779
+Early stopping counter: 0/10
+
+Epoch 15/100
+Train Loss: 0.0192
+Val Loss: 0.0776
+Val IoU All: 0.2160
+Val Dice All: 0.2583
+Val F1 All: 0.2583
+Val IoU Damage: 0.2358
+Val Dice Damage: 0.2714
+Val F1 Damage: 0.2714
+Early stopping counter: 1/10
+
+Epoch 16/100
+Train Loss: 0.0170
+Val Loss: 0.0830
+Val IoU All: 0.2275
+Val Dice All: 0.2706
+Val F1 All: 0.2706
+Val IoU Damage: 0.2452
+Val Dice Damage: 0.2803
+Val F1 Damage: 0.2803
+Early stopping counter: 0/10
+
+Epoch 17/100
+Train Loss: 0.0168
+Val Loss: 0.0875
+Val IoU All: 0.2178
+Val Dice All: 0.2641
+Val F1 All: 0.2641
+Val IoU Damage: 0.2358
+Val Dice Damage: 0.2744
+Val F1 Damage: 0.2744
+Early stopping counter: 1/10
+
+Epoch 18/100
+Train Loss: 0.0151
+Val Loss: 0.1100
+Val IoU All: 0.2149
+Val Dice All: 0.2588
+Val F1 All: 0.2588
+Val IoU Damage: 0.2324
+Val Dice Damage: 0.2680
+Val F1 Damage: 0.2680
+Early stopping counter: 2/10
+
+Epoch 19/100
+Train Loss: 0.0152
+Val Loss: 0.0924
+Val IoU All: 0.2293
+Val Dice All: 0.2748
+Val F1 All: 0.2748
+Val IoU Damage: 0.2504
+Val Dice Damage: 0.2883
+Val F1 Damage: 0.2883
+Early stopping counter: 0/10
+
+Epoch 20/100
+Train Loss: 0.0145
+Val Loss: 0.0887
+Val IoU All: 0.2110
+Val Dice All: 0.2544
+Val F1 All: 0.2544
+Val IoU Damage: 0.2289
+Val Dice Damage: 0.2655
+Val F1 Damage: 0.2655
+Early stopping counter: 1/10
+
+Epoch 21/100
+Train Loss: 0.0122
+Val Loss: 0.1015
+Val IoU All: 0.2367
+Val Dice All: 0.2818
+Val F1 All: 0.2818
+Val IoU Damage: 0.2587
+Val Dice Damage: 0.2962
+Val F1 Damage: 0.2962
+Early stopping counter: 0/10
+
+Epoch 22/100
+Train Loss: 0.0115
+Val Loss: 0.0973
+Val IoU All: 0.2154
+Val Dice All: 0.2591
+Val F1 All: 0.2591
+Val IoU Damage: 0.2336
+Val Dice Damage: 0.2699
+Val F1 Damage: 0.2699
+Early stopping counter: 1/10
+
+Epoch 23/100
+Train Loss: 0.0116
+Val Loss: 0.1069
+Val IoU All: 0.2313
+Val Dice All: 0.2765
+Val F1 All: 0.2765
+Val IoU Damage: 0.2500
+Val Dice Damage: 0.2867
+Val F1 Damage: 0.2867
+Early stopping counter: 2/10
+
+Epoch 24/100
+Train Loss: 0.0106
+Val Loss: 0.0928
+Val IoU All: 0.2377
+Val Dice All: 0.2842
+Val F1 All: 0.2842
+Val IoU Damage: 0.2606
+Val Dice Damage: 0.3000
+Val F1 Damage: 0.3000
+Early stopping counter: 0/10
+
+Epoch 25/100
+Train Loss: 0.0103
+Val Loss: 0.1043
+Val IoU All: 0.2292
+Val Dice All: 0.2767
+Val F1 All: 0.2767
+Val IoU Damage: 0.2494
+Val Dice Damage: 0.2899
+Val F1 Damage: 0.2899
+Early stopping counter: 1/10
+
+Epoch 26/100
+Train Loss: 0.0091
+Val Loss: 0.0993
+Val IoU All: 0.2218
+Val Dice All: 0.2690
+Val F1 All: 0.2690
+Val IoU Damage: 0.2414
+Val Dice Damage: 0.2822
+Val F1 Damage: 0.2822
+Early stopping counter: 2/10
+
+Epoch 27/100
+Train Loss: 0.0095
+Val Loss: 0.1131
+Val IoU All: 0.2347
+Val Dice All: 0.2824
+Val F1 All: 0.2824
+Val IoU Damage: 0.2545
+Val Dice Damage: 0.2938
+Val F1 Damage: 0.2938
+Early stopping counter: 3/10
+
+Epoch 28/100
+Train Loss: 0.0093
+Val Loss: 0.1087
+Val IoU All: 0.2301
+Val Dice All: 0.2794
+Val F1 All: 0.2794
+Val IoU Damage: 0.2470
+Val Dice Damage: 0.2882
+Val F1 Damage: 0.2882
+Early stopping counter: 4/10
+
+Epoch 29/100
+Train Loss: 0.0081
+Val Loss: 0.1210
+Val IoU All: 0.2445
+Val Dice All: 0.2908
+Val F1 All: 0.2908
+Val IoU Damage: 0.2672
+Val Dice Damage: 0.3058
+Val F1 Damage: 0.3058
+Early stopping counter: 0/10
+
+Epoch 30/100
+Train Loss: 0.0078
+Val Loss: 0.1271
+Val IoU All: 0.2428
+Val Dice All: 0.2896
+Val F1 All: 0.2896
+Val IoU Damage: 0.2648
+Val Dice Damage: 0.3042
+Val F1 Damage: 0.3042
+Early stopping counter: 1/10
+
+Epoch 31/100
+Train Loss: 0.0068
+Val Loss: 0.1308
+Val IoU All: 0.2472
+Val Dice All: 0.2950
+Val F1 All: 0.2950
+Val IoU Damage: 0.2658
+Val Dice Damage: 0.3042
+Val F1 Damage: 0.3042
+Early stopping counter: 2/10
+
+Epoch 32/100
+Train Loss: 0.0072
+Val Loss: 0.1315
+Val IoU All: 0.2407
+Val Dice All: 0.2879
+Val F1 All: 0.2879
+Val IoU Damage: 0.2612
+Val Dice Damage: 0.3001
+Val F1 Damage: 0.3001
+Early stopping counter: 3/10
+
+Epoch 33/100
+Train Loss: 0.0063
+Val Loss: 0.1324
+Val IoU All: 0.2430
+Val Dice All: 0.2906
+Val F1 All: 0.2906
+Val IoU Damage: 0.2615
+Val Dice Damage: 0.2998
+Val F1 Damage: 0.2998
+Early stopping counter: 4/10
+
+Epoch 34/100
+Train Loss: 0.0072
+Val Loss: 0.1273
+Val IoU All: 0.2329
+Val Dice All: 0.2829
+Val F1 All: 0.2829
+Val IoU Damage: 0.2498
+Val Dice Damage: 0.2918
+Val F1 Damage: 0.2918
+Early stopping counter: 5/10
+
+Epoch 35/100
+Train Loss: 0.0057
+Val Loss: 0.1556
+Val IoU All: 0.2503
+Val Dice All: 0.2990
+Val F1 All: 0.2990
+Val IoU Damage: 0.2711
+Val Dice Damage: 0.3110
+Val F1 Damage: 0.3110
+Early stopping counter: 0/10
+
+Epoch 36/100
+Train Loss: 0.0056
+Val Loss: 0.1589
+Val IoU All: 0.2457
+Val Dice All: 0.2921
+Val F1 All: 0.2921
+Val IoU Damage: 0.2641
+Val Dice Damage: 0.3004
+Val F1 Damage: 0.3004
+Early stopping counter: 1/10
+
+Epoch 37/100
+Train Loss: 0.0056
+Val Loss: 0.1344
+Val IoU All: 0.2474
+Val Dice All: 0.2945
+Val F1 All: 0.2945
+Val IoU Damage: 0.2673
+Val Dice Damage: 0.3052
+Val F1 Damage: 0.3052
+Early stopping counter: 2/10
+
+Epoch 38/100
+Train Loss: 0.0061
+Val Loss: 0.1334
+Val IoU All: 0.2464
+Val Dice All: 0.2948
+Val F1 All: 0.2948
+Val IoU Damage: 0.2668
+Val Dice Damage: 0.3061
+Val F1 Damage: 0.3061
+Early stopping counter: 3/10
+
+Epoch 39/100
+Train Loss: 0.0047
+Val Loss: 0.1455
+Val IoU All: 0.2479
+Val Dice All: 0.2958
+Val F1 All: 0.2958
+Val IoU Damage: 0.2673
+Val Dice Damage: 0.3062
+Val F1 Damage: 0.3062
+Early stopping counter: 4/10
+
+Epoch 40/100
+Train Loss: 0.0091
+Val Loss: 0.1153
+Val IoU All: 0.2283
+Val Dice All: 0.2780
+Val F1 All: 0.2780
+Val IoU Damage: 0.2451
+Val Dice Damage: 0.2867
+Val F1 Damage: 0.2867
+Early stopping counter: 5/10
+
+Epoch 41/100
+Train Loss: 0.0049
+Val Loss: 0.1366
+Val IoU All: 0.2500
+Val Dice All: 0.2977
+Val F1 All: 0.2977
+Val IoU Damage: 0.2700
+Val Dice Damage: 0.3084
+Val F1 Damage: 0.3084
+Early stopping counter: 6/10
+
+Epoch 42/100
