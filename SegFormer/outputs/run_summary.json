@@ -1,0 +1,56 @@
+{
+  "device": "cuda",
+  "epochs": 100,
+  "batch_size": 2,
+  "num_workers": 8,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "early_stopping_patience": 10,
+  "train_size": 2799,
+  "val_size": 933,
+  "test_size": 933,
+  "class_names": [
+    "Background",
+    "No Damage",
+    "Minor Damage",
+    "Major Damage",
+    "Destroyed"
+  ],
+  "class_weights": [
+    0.6943499445915222,
+    0.010573300532996655,
+    0.08508720993995667,
+    0.06734895706176758,
+    0.14264056086540222
+  ],
+  "best_epoch_by_val_damage_iou": 63,
+  "test_loss": 0.21708781312008016,
+  "test_macro_iou_all": 0.24975840496139606,
+  "test_macro_dice_all": 0.29461413471103864,
+  "test_macro_f1_all": 0.29461413260689645,
+  "test_macro_iou_damage": 0.27468413254713,
+  "test_macro_dice_damage": 0.31043598396207994,
+  "test_macro_f1_damage": 0.3104359819471842,
+  "test_per_class_iou": [
+    0.15005549461846054,
+    0.6101746359895039,
+    0.06856291249170328,
+    0.16715802688012849,
+    0.2528409548271841
+  ],
+  "test_per_class_dice": [
+    0.23132673770687348,
+    0.6547511440056678,
+    0.09759976813603607,
+    0.19847717380250607,
+    0.29091584990410974
+  ],
+  "test_per_class_f1": [
+    0.23132673524574557,
+    0.6547511403376212,
+    0.09759976716419656,
+    0.19847717230653839,
+    0.2909158479803806
+  ]
+}
